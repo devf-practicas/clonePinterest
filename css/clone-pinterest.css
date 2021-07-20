@@ -28,22 +28,119 @@ nav.nav-pinterest {
     border: none;
     border-radius: 25px;
     height: 50px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 17px;
     width: 100%;
 }
+.pint-search::placeholder {
+    padding-left:40px; 
+}
+
 .pint-search:hover {
     background-color:#e2e2e2;
     
 }
 
 .pint-search:focus {
-    border:solid 3px blueviolet;
+    border:solid 4px #7FC1FF;
     outline: none;
 }
+.pint-search:focus::placeholder {
+    padding-left:17px; 
+}
+
 .pint-avatar img {
     border-radius: 50%;
     height: 24px;
     width: 24px;
 }
+.pint-logo{
+    color: #767676;
+    margin: 8px 5px; 
+}
+
+button.pint-btn-logo {
+    background: none;
+    border-radius: 100%;
+    border: none;
+    height: 48px;
+    width: 48px;
+}
+button.pint-btn-logo:hover {
+    background:#efefef;
+
+}
+
+button.pint-btn-logo:active {
+    background-color: #d2d2d2;
+    height: 42px;
+    margin: 3px;
+    width: 42px;
+}
+
+button.pint-btn {
+    background: none;
+    border: none;
+    border-radius: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 8px 0px;
+    height: 48px;
+    width: 48px;    
+}
+
+button.pint-btn:hover{
+    background:#efefef;
+}
+
+button.pint-btn:active{   
+    background-color: #d2d2d2; 
+    border: 4px solid  #7FC1FF; 
+    padding:0px;
+    fill: #767676;
+}
+ 
+.pint-link{
+     
+    border-radius: 25px;
+    font-weight: 700;
+    height: 48px;
+    margin: 8px 5px;
+    padding: 8px 16px;
+}
+
+.pint-link:hover{
+    background:#efefef;
+    border-radius: 25px;
+   
+}
+
+.pint-link:active{
+    background-color: #d2d2d2;
+    border-radius: 25px;
+     
+}
+
+.pint-link.active{
+    background-color: #111111;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 16px;
+}
+.right-btn-group {
+    display: flex;
+}
+.right-btn-group > div {
+    margin: 8px 5px;
+}
+.icon {   
+    fill: #767676;
+}
+.icon-logo{
+    fill: #e60023; 
+    width: 100%;
+}
+
 .left-btn {
     display: flex;
 }
@@ -62,6 +159,8 @@ nav.nav-pinterest {
     position: absolute;
     transform: translateX(-100%);
     z-index: 20;
+    top:48px;
+    right: -350px;
 }
 
 .main-menu-container.active{
