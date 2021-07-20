@@ -37,6 +37,7 @@ nav.nav-pinterest {
 
 .pint-search:focus {
     border:solid 3px blueviolet;
+    outline: none;
 }
 .pint-avatar img {
     border-radius: 50%;
