@@ -40,5 +40,19 @@ nav.nav-pinterest {
 .left-btn {
     display: flex;
 }
+.panel-1{
+    margin: 2px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.panel-2{
+    margin: 2px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:green;
+}
+
 
 /*-----------------------------------------  */
