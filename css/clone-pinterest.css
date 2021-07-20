@@ -51,15 +51,27 @@ nav.nav-pinterest {
     margin: 8px 5px;
 }
 
+#menu-button{
+    position: relative;
+}
 /*-----------------------------------------  */
 
 /*----------Estilos del menu desplegable-----------*/
+.main-menu-container{
+    display: none;
+    position: absolute;
+    transform: translateX(-100%);
+    z-index: 20;
+}
+
+.main-menu-container.active{
+    display: block;
+}
+
 .menu-container {
     background-color : #FFF;
     border-radius    : 10px;
     box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
-    display          : flex;
-    flex-direction   : column;
     margin           : 20px;
     padding          : 8px;
     width            : 350px;
@@ -141,3 +153,102 @@ nav.nav-pinterest {
 }
 
 /*-------------------------------------------------*/
+/*-------------------Botones Flotantes-------------*/
+.float-buttons-container{
+    position: absolute;
+}
+
+.float-pin, .float-help{
+    position: fixed;
+    right: 20px;
+}
+
+.float-button{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+/*--------------------------------------------------*/
+/*--------------Boton Pin--------------------------*/
+.float-pin{
+    bottom: 76px;
+}
+
+.pin-container{
+    display: none;
+    position: absolute;
+    right: 65px;
+    transform: translateY(-50%);
+    z-index: 15;
+}
+
+.pin-container.active{
+    display: block;
+}
+
+.pin {
+    border-radius  : 10px;
+    display        : flex;
+    flex-direction : row;
+    padding        : 8px;
+}
+
+.pin:hover {
+    background-color : #DDD;
+    color            : #111111;
+}
+
+.pin svg{
+    align-self: center;
+}
+
+.pin p{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+/*--------------------------------------------------*/
+/*---------------Botón Help------------------------*/
+.float-help{
+    bottom: 10px;
+}
+
+.help-container{
+    position: absolute;
+    right: 65px;
+    display: none;
+    transform: translateY(-80%);
+    z-index: 15;
+}
+
+.help-container.active{
+    display: block;
+}
+
+.help p, .help a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.help p:hover{
+    background-color : #DDD;
+    border-radius: 10px;
+}
+
+.help a{
+    text-decoration: none;
+    color:     #767676;
+}
+
+.help a:hover{
+    text-decoration: underline;
+    color: #111111;
+}
+/*--------------------------------------------------*/
