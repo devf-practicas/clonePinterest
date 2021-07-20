@@ -42,3 +42,92 @@ nav.nav-pinterest {
 }
 
 /*-----------------------------------------  */
+
+/*----------Estilos del menu desplegable-----------*/
+.menu-container {
+    background-color : #FFF;
+    border-radius    : 10px;
+    box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    display          : flex;
+    flex-direction   : column;
+    margin           : 20px;
+    padding          : 8px;
+    width            : 350px;
+}
+
+.menu {
+    padding : 8px;
+}
+
+.section {
+    display        : flex;
+    flex-direction : column;
+    margin-bottom  : 20px;
+}
+
+.user {
+    border-radius  : 10px;
+    display        : flex;
+    flex-direction : row;
+    padding        : 8px;
+}
+
+.user:hover {
+    background-color : #DDD;
+    color            : #111111;
+}
+
+.user-img img {
+    border-radius : 50%;
+}
+
+.user-data {
+    padding : 8px;
+}
+
+.check {
+    align-self   : center;
+    justify-self : flex-end;
+}
+
+.title {
+    color     : #111111;
+    font-size : 12px;
+}
+
+.item {
+    border-radius   : 10px;
+    color           : #111111;
+    font-size       : 16px;
+    font-weight     : 700;
+    padding         : 8px;
+    text-decoration : none;
+    width           : 100%;
+}
+
+.item:hover {
+    background-color : #DDD;
+    color            : #111111;
+}
+
+.special-item {
+    border-radius   : 10px;
+    display         : flex;
+    justify-content : space-between;
+    padding-right   : 8px;
+}
+
+.special-item:hover {
+    background-color : #DDD;
+}
+
+.external {
+    align-self : center;
+}
+
+.data {
+    color     : #767676;
+    font-size : 14px;
+}
+
+/*-------------------------------------------------*/
