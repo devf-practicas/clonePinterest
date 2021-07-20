@@ -266,12 +266,24 @@ button.pint-btn:active{
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    box-shadow       : 0 0 10px -1px rgb(0 0 0 / 12%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
 }
+.float-button:hover{
+    background:#efefef;
+
+}
+
+.float-button:active{
+    border: #fff 2px solid;
+    background-color: #d2d2d2;
+
+}
+
+
 /*--------------------------------------------------*/
 /*--------------Boton Pin--------------------------*/
 .float-pin{
