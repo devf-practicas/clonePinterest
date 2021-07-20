@@ -140,3 +140,121 @@ nav.nav-pinterest {
 }
 
 /*-------------------------------------------------*/
+/*-------------------Botones Flotantes-------------*/
+.float-button{
+    margin: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------------------------------*/
+/*--------------Boton Pin--------------------------*/
+.pin {
+    border-radius  : 10px;
+    display        : flex;
+    flex-direction : row;
+    padding        : 8px;
+}
+
+.pin:hover {
+    background-color : #DDD;
+    color            : #111111;
+}
+
+.pin svg{
+    align-self: center;
+}
+
+.pin p{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+/*--------------------------------------------------*/
+/*---------------Botón Help------------------------*/
+.help p, .help a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.help p:hover{
+    background-color : #DDD;
+    border-radius: 10px;
+}
+
+.help a{
+    text-decoration: none;
+    color:     #767676;
+}
+
+.help a:hover{
+    text-decoration: underline;
+    color: #111111;
+}
+
+/*--------------------------------------------------*/
+/*-------------------Botones Flotantes-------------*/
+.float-button{
+    margin: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------------------------------*/
+/*--------------Boton Pin--------------------------*/
+.pin {
+    border-radius  : 10px;
+    display        : flex;
+    flex-direction : row;
+    padding        : 8px;
+}
+
+.pin:hover {
+    background-color : #DDD;
+    color            : #111111;
+}
+
+.pin svg{
+    align-self: center;
+}
+
+.pin p{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+/*--------------------------------------------------*/
+/*---------------Botón Help------------------------*/
+.help p, .help a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.help p:hover{
+    background-color : #DDD;
+    border-radius: 10px;
+}
+
+.help a{
+    text-decoration: none;
+    color:     #767676;
+}
+
+.help a:hover{
+    text-decoration: underline;
+    color: #111111;
+}
+
+/*--------------------------------------------------*/
