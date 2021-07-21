@@ -48,23 +48,69 @@
     <!-- MODAL -- REGISTRATE -->
     <div class="modal fade" id="registrate" tabindex="-1" aria-labelledby="registrate" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <i class="fab fa-pinterest logo"></i>
+            <div class="modal-content ">
+                <div class="modal-header d-flex" style="border: none;">
+                 
+                    <i class="fab fa-pinterest logo modal-title w-100 text-center"></i>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <p></p>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body input-tamaño">
+                    <div class="d-flex">
+                        <h2 class="text-center">Te damos la bienvenida a Pinterest</h2>
+                    </div>
+
+                    <form action="">
+                    <div class="row d-flex justify-content-center ">
+                        <input type="text"  class="form-control rounded-pill "  placeholder="Correo">
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <input type="text" class="form-control rounded-pill"  placeholder="Contraseña">
+                        <div id="passwordHelpBlock" class="form-text text-center">
+                            <a href=""><b>¿Olvidaste tu contraseña?</b></a>
+                        </div>
+                        <br><br>
+                        <button type="button" id="login" class="btn rounded-pill">Inicia sesión</button>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row">
+                        <span class="text-center">O</span>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row d-flex justify-content-center">
+                        <button type="button" id="facebook" class="btn rounded-pill"><i class="fab fa-facebook"></i> Continuar con Facebook</button>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row d-flex justify-content-center">
+                        <button type="button" id="google" class="btn rounded-pill btn btn-outline-secondary"><i class="fab fa-google"></i> Continuar con Google</button>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row ">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <p class="text-center Parrafo" style="font-size: 12px;">
+                            Al continuar, aceptas las <a href="">Condiciones de servicio</a>de Pinterest y reconoces que leíste nuestra <a href="">Política de privacidad</a> .
+                        </p>
+                    </div>
+                    <div class="col-3"></div>
+                    </div>
+
+                    <div class="container"  style="height: 10px;"></div>
+                    <div class="row ">
+                    <div class="col-3"></div>
+                    <div class="col-6 " >
+                        <p class="text-center Parrafo" style="font-size: 12px;">
+                            <a href="">¿Áun no estás en Pinterest? Regístrate</a>
+                            <br>
+                            <a href="">¿Representas a una empresa? Empieza aqui</a>
+                        </p>
+                    </div>
+
+                </div>
+                <!-- <div class="modal-footer " style="align-items: none;">
                     
-                </div>
-                <div class="modal-footer">
-                    <div class="d-flex justify-content-center">
-                        <p>¿No eres tú? Iniciar sesion con otra cuenta</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <p>¿No eres tú? Iniciar sesion con otra cuenta</p>
-                    </div>
-                </div>
+                </div> -->
+            </div>
             </div>
         </div>
     </div>
@@ -87,7 +133,7 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner " style="padding: 30px;">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <div class="d-flex justify-content-center ">
                             <p class="panel-2">idea para un nuevo atuendo</p>
