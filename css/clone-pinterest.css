@@ -159,8 +159,9 @@ button.pint-btn:active{
     position: absolute;
     transform: translateX(-100%);
     z-index: 20;
-    top:48px;
-    right: -350px;
+    top:52px;
+    right: -290px;
+    background: tan;
 }
 
 .main-menu-container.active{
@@ -169,11 +170,12 @@ button.pint-btn:active{
 
 .menu-container {
     background-color : #FFF;
-    border-radius    : 10px;
-    box-shadow       : 0 0 2px 1px rgba(0, 0, 0, 0.4);
+    border-radius    : 16px;
+    box-shadow       :0 0 8px -2px rgb(0 0 0 / 31%);
     margin           : 20px;
     padding          : 8px;
-    width            : 350px;
+    width            : 290px;
+    stroke: rgb(239, 239, 239);
 }
 
 .menu {
@@ -190,7 +192,6 @@ button.pint-btn:active{
     border-radius  : 10px;
     display        : flex;
     flex-direction : row;
-    padding        : 8px;
 }
 
 .user:hover {
@@ -200,6 +201,9 @@ button.pint-btn:active{
 
 .user-img img {
     border-radius : 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: 12px;
 }
 
 .user-data {
@@ -214,6 +218,7 @@ button.pint-btn:active{
 .title {
     color     : #111111;
     font-size : 12px;
+    margin-bottom: 0px;
 }
 
 .item {
@@ -221,7 +226,7 @@ button.pint-btn:active{
     color           : #111111;
     font-size       : 16px;
     font-weight     : 700;
-    padding         : 8px;
+    padding         : 6px;
     text-decoration : none;
     width           : 100%;
 }
@@ -249,6 +254,8 @@ button.pint-btn:active{
 .data {
     color     : #767676;
     font-size : 14px;
+    margin-bottom: 0px;
+    padding-left: 6px;
 }
 
 /*-------------------------------------------------*/
@@ -363,3 +370,41 @@ button.pint-btn:active{
     color: #111111;
 }
 /*--------------------------------------------------*/
+/*----------------------------------------------- pintcard Hover State*/
+.pint-card { 
+    
+    width: 222px; 
+    margin: 20px;
+    border-radius: 16px;
+}
+.pint-card-content {
+    max-width:  222px;
+}
+
+.pint-card-content-hover {
+    background: #0000002e;
+    border-radius: 16px;
+}
+
+.pint-card-footer {
+    margin: 5px;
+    display: flex;
+}
+
+
+.pint-card-footer img {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+
+img.pint-img {    
+    border-radius: 16px;
+    width: 222px;    
+}
+
+.pint-card-title{
+    font-size: 14px;
+    padding: 5px 0px 0px 5px;
+
+}
