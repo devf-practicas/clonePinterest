@@ -415,6 +415,7 @@ img.pint-img {
 
 .grid{
     margin-left: 15px;
+    margin-top: 15px;
 }
 
 .grid-item{
@@ -446,7 +447,7 @@ img.pint-img {
 
 .grid-item div.hovercard{ 
      
-    margin-left: 0%;
+    margin-left: 0;
     opacity: 0;
     position: absolute;
     visibility: visible;
@@ -498,7 +499,7 @@ img.pint-img {
     border-radius: 25px;
     box-sizing: border-box;
     font-weight: 700;
-    padding:0px 15px;
+    padding:0 15px;
     margin: 8px 0;    
 }
 
