@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/clone-pinterest.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <title>.: Pinterest::</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+                <i class="fab fa-pinterest logo"></i>
+                <span id="titulo">Pinterest</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto " id="negrita">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active" aria-current="page" href="#">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  me-2" href="#">Blog</a>
+                    </li>
+                    <form class="container-fluid justify-content-start">
+                        <button class="btn btn-danger me-2" type="button" data-bs-toggle="modal"
+                            data-bs-target="#registrate">Iniciar sesión</button>
+                        <button class="btn  btn-outline-secondary" type="button"><span
+                                style="color:black">Regístrate</span> </button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- MODAL -- REGISTRATE -->
+    <div class="modal fade" id="registrate" tabindex="-1" aria-labelledby="registrate" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header d-flex" style="border: none;">
+                    <i class="fab fa-pinterest logo modal-title w-100 text-center"></i>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body input-tamaño">
+                    <div class="d-flex">
+                        <h2 class="text-center">Te damos la bienvenida a Pinterest</h2>
+                    </div>
+
+                    <form action="">
+                    <div class="row d-flex justify-content-center ">
+                        <input type="text"  class="form-control rounded-pill "  placeholder="Correo">
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <input type="text" class="form-control rounded-pill"  placeholder="Contraseña">
+                        <div id="passwordHelpBlock" class="form-text text-center">
+                            <a href=""><b>¿Olvidaste tu contraseña?</b></a>
+                        </div>
+                        <br><br>
+                        <button type="button"  role="link" onclick="window.location='dashboard.html'" id="login" class="btn rounded-pill">Inicia sesión</button>
+                    </div>
+                    </form>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row">
+                        <span class="text-center">O</span>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row d-flex justify-content-center">
+                        <button type="button" id="facebook" class="btn rounded-pill"><i class="fab fa-facebook"></i> Continuar con Facebook</button>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row d-flex justify-content-center">
+                        <button type="button" id="google" class="btn rounded-pill btn btn-outline-secondary"><i class="fab fa-google"></i> Continuar con Google</button>
+                    </div>
+                    <div class="container" style="height: 10px;"></div>
+                    <div class="row ">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <p class="text-center Parrafo" style="font-size: 12px;">
+                            Al continuar, aceptas las <a href="">Condiciones de servicio</a>de Pinterest y reconoces que leíste nuestra <a href="">Política de privacidad</a> .
+                        </p>
+                    </div>
+                    <div class="col-3"></div>
+                    </div>
+
+                    <div class="container"  style="height: 10px;"></div>
+                    <div class="row ">
+                    <div class="col-3"></div>
+                    <div class="col-6 " >
+                        <p class="text-center Parrafo" style="font-size: 12px;">
+                            <a href="">¿Áun no estás en Pinterest? Regístrate</a>
+                            <br>
+                            <a href="">¿Representas a una empresa? Empieza aqui</a>
+                        </p>
+                    </div>
+
+                </div>
+                <!-- <div class="modal-footer " style="align-items: none;">
+                    
+                </div> -->
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="d-flex justify-content-center">
+            <p class="panel-1">Descubre tu próxima</p>
+        </div>
+    </div>
+    <div class="container-sm  ">
+        <div class="row">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner " style="padding: 30px;">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="d-flex justify-content-center ">
+                            <p class="panel-2">idea para un nuevo atuendo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex justify-content-center">
+                            <p class="panel-2">idea para variedad de comidas</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <p class="panel-2">idea para visitar</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
