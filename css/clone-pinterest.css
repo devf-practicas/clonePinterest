@@ -158,7 +158,7 @@ button.pint-btn:active{
     display: none;
     position: absolute;
     transform: translateX(-100%);
-    z-index: 20;
+    z-index: 120;
     top:52px;
     right: -290px;
     background: tan;
@@ -374,7 +374,7 @@ button.pint-btn:active{
 }
 /*--------------------------------------------------*/
 /*----------------------------------------------- pintcard Hover State*/
-.pint-card { 
+.pint-card {
     
     width: 222px; 
     margin: 20px;
