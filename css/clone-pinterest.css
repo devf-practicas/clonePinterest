@@ -474,6 +474,9 @@ img.pint-img {
     min-height: 30px;
     color: rgb(202, 191, 191);
 }
+.Parrafo{
+    font-size: 12px;
+}
 .Parrafo a{
     font-weight: bold;
     color: black;
@@ -514,3 +517,9 @@ nav.nav-prueba {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.espacios{
+    height: 10px;
+}
+.registrarletras{
+    font-size: 14px;
+}
