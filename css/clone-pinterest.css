@@ -425,8 +425,7 @@ img.pint-img {
 .grid-item img{
     border-radius: 10px;    
     max-width: 235px;
-    position: relative;
-    overflow: hidden;
+
 }
 .grid-item button{
     position: absolute;
