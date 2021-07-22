@@ -411,10 +411,7 @@ img.pint-img {
     padding: 5px 0 0 5px;
 
 }
-.grid-item {
-   
-    
-}
+
 
 .grid{
     margin-left: 15px;
@@ -422,11 +419,25 @@ img.pint-img {
 
 .grid-item{
     margin-bottom: 40px;
+    display: flex;
 }
 
-.grid-image{
+.grid-item img{
     border-radius: 10px;    
     max-width: 235px;
+    position: relative;
+    overflow: hidden;
+}
+.grid-item button{
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+    margin-left: 60%;
+    visibility: visible;
+}
+.grid-item:hover>.temporal{
+    opacity: 1;
+    visibility: visible;
 }
 
 
