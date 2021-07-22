@@ -428,17 +428,106 @@ img.pint-img {
     position: relative;
     overflow: hidden;
 }
-.grid-item button{
+/*.grid-item button{
     position: absolute;
     top: 10px;
     opacity: 0;
     margin-left: 60%;
     visibility: visible;
 }
-.grid-item:hover>.temporal{
+*/
+
+/*.grid-item:hover>.temporal{
     opacity: 1;
     visibility: visible;
+    background-color:red ; 
+}*/
+
+
+
+.grid-item div.hovercard{ 
+     
+    margin-left: 0%;
+    opacity: 0;
+    position: absolute;
+    visibility: visible;
 }
+
+.grid-item:hover>.hovercard{
+    background-color:rgba(9, 7, 7, 0.213) ; 
+    border-radius: 10px;  
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    opacity: 01;
+    visibility: visible;
+    width: 100%;
+     
+    
+}
+.group-top-btns-card{
+    /*background: red;*/
+    color: #efefef;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.group-bottom-btns-card {
+   /*background: lime;*/
+    display: flex;
+   justify-content: space-between;
+   position: absolute;
+   bottom: 5px;
+}
+
+.btn-card-dropdown{
+    background: none;
+    border: none;
+    color: #efefef;
+    font-weight: 700;
+
+}
+
+.btn-card-dropdown svg{ 
+    fill:#efefef;
+
+}
+
+.btn-card-link {
+    background:#efefef;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-weight: 700;
+    padding:0px 15px;
+    margin: 8px 0;    
+}
+
+.btn-card-share-more{
+    background:#efefef;
+    border: none;
+    border-radius: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 5px;
+    margin: 8px 0;  
+    width: 40px;
+
+}
+
+button.hover:hover{
+    background:#efefef;
+}
+
+button.hover:active{   
+    background-color: #d2d2d2; 
+    border: 4px solid  #7FC1FF; 
+    padding:0;
+    fill: #767676;
+}
+ 
+
+
 
 
 /*----------Index-----------*/
