@@ -28,8 +28,8 @@ nav.nav-pinterest {
     border: none;
     border-radius: 25px;
     height: 50px;
-    margin: 8px 0px 0px 0px;
-    padding: 0px 17px;
+    margin: 8px 0 0 0;
+    padding: 0 17px;
     width: 100%;
 }
 .pint-search::placeholder {
@@ -84,7 +84,7 @@ button.pint-btn {
     border-radius: 100%;
     box-sizing: border-box;
     padding: 5px;
-    margin: 8px 0px;
+    margin: 8px 0;
     height: 48px;
     width: 48px;    
 }
@@ -96,7 +96,7 @@ button.pint-btn:hover{
 button.pint-btn:active{   
     background-color: #d2d2d2; 
     border: 4px solid  #7FC1FF; 
-    padding:0px;
+    padding:0;
     fill: #767676;
 }
  
@@ -171,7 +171,7 @@ button.pint-btn:active{
 .menu-container {
     background-color : #FFF;
     border-radius    : 16px;
-    box-shadow       :0 0 8px -2px rgb(0 0 0 / 31%);
+    box-shadow       :0 0 8px -2px rgba(0, 0, 0, .31);
     margin           : 20px;
     padding          : 8px;
     width            : 290px;
@@ -218,7 +218,7 @@ button.pint-btn:active{
 .title {
     color     : #111111;
     font-size : 12px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .item {
@@ -254,7 +254,7 @@ button.pint-btn:active{
 .data {
     color     : #767676;
     font-size : 14px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-left: 6px;
 }
 
@@ -274,7 +274,8 @@ button.pint-btn:active{
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    box-shadow       : 0 0 10px -1px rgb(0 0 0 / 12%);
+    box-shadow       : 0 0 10px -1px rgba(0, 0, 0, .12);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,7 +295,7 @@ button.pint-btn:active{
 
 
 /*--------------------------------------------------*/
-/*--------------Boton Pin--------------------------*/
+/*--------------Botón Pin--------------------------*/
 .float-pin{
     bottom: 76px;
 }
@@ -407,7 +408,7 @@ img.pint-img {
 
 .pint-card-title{
     font-size: 14px;
-    padding: 5px 0px 0px 5px;
+    padding: 5px 0 0 5px;
 
 }
 .grid-item {
@@ -415,10 +416,15 @@ img.pint-img {
     
 }
 
+.grid{
+    margin-left: 15px;
+}
+
+.grid-item{
+    margin-bottom: 40px;
+}
+
 .grid-image{
     border-radius: 10px;    
     max-width: 235px;
-    
-    margin: 5px 5px;
-     
 }
