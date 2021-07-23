@@ -310,6 +310,7 @@ button.pint-btn:active{
     display: none;
     position: absolute;
     right: 65px;
+    top: -10px;
     transform: translateY(-50%);
     z-index: 15;
 }
@@ -349,6 +350,7 @@ button.pint-btn:active{
 .help-container{
     position: absolute;
     right: 65px;
+    top: -10px;
     display: none;
     transform: translateY(-80%);
     z-index: 15;
