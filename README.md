@@ -1,7 +1,5 @@
 # Clone de Pinterest 
-
- Practiva para DEVF 
-
+ Practica para DEVF , crear un clon de  [Pinterest](https://pinterest.com)  
  
 
 ## Construido con 🛠️
