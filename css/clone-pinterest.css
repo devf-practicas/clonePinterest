@@ -48,7 +48,11 @@ nav.nav-pinterest {
 .pint-search:focus {
     border:solid 4px #7FC1FF;
     outline: none;
-    background-image: none;
+    background-image: none; 
+    padding-left:10px; 
+}
+.pint-search:focus::placeholder {
+    padding-left:0px; 
 }
 
 .pint-avatar img {
