@@ -9,6 +9,18 @@ Ernesto Gilberto
 
 
 /*------------------------------------ Nav Bar */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home-bg{
+    background-image: url("../imgs/home-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+
+
+}
 nav.nav-pinterest {
 
     background-color:#fff;
