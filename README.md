@@ -1,4 +1,4 @@
-# Clone de Pinterest 
+# Clone de Pinterest ---
  Practica para DEVF , crear un clon de  [Pinterest](https://pinterest.com)  
  
 
